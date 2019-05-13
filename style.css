@@ -1,0 +1,32 @@
+    img{
+        float: left;
+    }
+
+    h1{
+        font-family: 'Nanum Gothic', sans-serif;
+        font-family: 'Modak', cursive;
+        font-family: 'Abril Fatface', cursive;
+           }
+    h2,h3{
+        font-family: 'Nanum Gothic', sans-serif;
+        font-family: 'Modak', cursive;
+        font-family: 'Abril Fatface', cursive;
+        font-family: 'Righteous', cursive;
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Bree Serif', serif;
+    }
+
+p,ul,a{
+     font-size:20px;
+}
+#sec1,#sec2{
+    clear: both;}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+  
+    flex-direction:column;
+    }
+
+    
