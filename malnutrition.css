@@ -55,57 +55,59 @@ a{
 a:hover{
     color:red;
 }
-
 li{
   
-  padding: 20px ;
+    padding: 20px ;
 }
 p{   
     
-  font-size: 20px;
-  line-height: 35px;
-  margin: 0 0 25px;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 25px;
-  margin-left: 20px;
- 
+    font-size: 20px;
+    line-height: 35px;
+    margin: 0 0 25px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+   
 }
 h1{
         
-  background: transparent;
-  font-size: 3em;
-  line-height: 52px;
-  font-weight: 900;
-  padding-top: 10%;
+    background: transparent;
+    font-size: 3em;
+    line-height: 52px;
+    font-weight: 900;
+    padding-top: 10%;
 }
+
 h2{
-  font-size: 30px;
-  line-height: 46px;
-  padding: 30px 0 0;
+    font-size: 38px;
+    line-height: 46px;
+    padding: 30px 0 0;
 }
 h1,h2,h3{ margin: 20px;}
 /******************************************************************************/
 
 .nav-bar{
-  display: flex;
-  list-style:none;
-  font-size:1.5em;
-  margin:0;
-  padding-left: 0;
-}
+    display: flex;
+    list-style:none;
+    font-size:1.5em;
+    margin:0;
+    padding-left: 0;
+ }
 
 .push{
-  margin-left: auto;
-  } 
+    margin-left: auto;
+    } 
 
-  .symptoms ul li {
-      padding: 0 15px 0 24px;
-      font-size: 1.2em;
-      margin-bottom: 28px;
-  }
+    .symptoms ul li {
+        padding: 0 15px 0 24px;
+       font-size: 1.2em;
+        margin-bottom: 28px;
+    }
 
-  .box{
+
+
+.box{
     width:fit-content;
         padding: 0px;
         margin: 20px;}
@@ -113,8 +115,7 @@ h1,h2,h3{ margin: 20px;}
     .box>img{width: 100%}
 
     
-
-  .container{
+.container{
 
     display: flex;
 
@@ -127,26 +128,23 @@ h1,h2,h3{ margin: 20px;}
         position: fixed;
         
         }
+
 @media only screen and (max-width:600px){
-.nav-bar{
-    font-size: 1em;
-    padding: 0;
-
-}
-h1{ 
-    font-size:2em;
-    font-weight:100;
-    padding-top: 20%;
-}
-
-.container{
-            
-    flex-flow: row wrap;
+    .nav-bar{
+        font-size: 1em;
+        padding: 0;
     
     }
+    h1{ 
+        font-size:2em;
+        font-weight:100;
+        padding-top: 20%;
+    }
     
-}  
-
-
-
-  
+    .container{
+                
+        flex-flow: row wrap;
+        
+        }
+        
+    }  
